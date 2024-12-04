@@ -3,5 +3,29 @@
 -Setup,Extensions : VSC, live server, prettier
 -Course Introduction
 -Course duration: 20 sessions (1 Month)
--Job/Designation: UI/UX, Front End Developer, Full Stack Developer
+-Job/Designation: UI/UX, HTML developer, Front End Developer, Full Stack Developer
 -Syllabus
+
+- What is application?
+- Type of application?
+- How builds application? FE BE DB
+- Use of application?
+
+- What is Internet?
+- What is Browser? (Chrome, Mic Edge, firefox, safari)
+- Browser == clint
+- search Engines? Examples (Google, Mic bing, Yahoo)
+- url
+
+-webPage,website,webApplication
+-webPages--> Static[HTML+CSS], Dynamic(Need to compile, process, render [HTML+CSS+JS])
+-Diff bt Google, Google Chrome (Browser), google.com(website)
+
+-SEO
+
+-Figma
+
+-Browser works:
+Bit(API Res)-->Characters(Alphabets)-->Token-->DOM Tree(Rendering)
+-Internet works:
+Clint(Browser)-->ISP-->DNS-->IP-->Server
