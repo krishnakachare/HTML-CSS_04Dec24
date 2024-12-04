@@ -1,0 +1,7 @@
+-Cource: HTML5 + CSS3
+-Course prerequisites: VSC
+-Setup,Extensions : VSC, live server, prettier
+-Course Introduction
+-Course duration: 20 sessions (1 Month)
+-Job/Designation: UI/UX, Front End Developer, Full Stack Developer
+-Syllabus

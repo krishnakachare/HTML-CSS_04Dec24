@@ -1,0 +1,15 @@
+git init
+git add . 
+git commit -m "update" 
+git push
+git log
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git checkout -b HTML-CSS_04Dec24
+git push -u origin HTML-CSS_04Dec24
+git remote set-url origin https://github.com/krishnakachare/HTML-CSS_04Dec24.git
+git push -u origin HTML-CSS_04Dec24
+git push --set-upstream origin HTML-CSS_04Dec24
+git remote show origin
