@@ -1,0 +1,16 @@
+HTML File output:
+    1. By copy path of HTML file
+    2. 'live server' extension
+
+Head Section:
+    title,
+    link:favicon (Page Icon)
+
+Body Section:
+    h1-h6(Heading Tag), 
+    p(paragraph Tag)
+
+    Text formatting tags:
+        <strong></strong>
+        <b></b>
+        <mark></mark>   
