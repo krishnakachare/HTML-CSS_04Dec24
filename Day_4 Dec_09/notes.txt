@@ -1,0 +1,49 @@
+Head Section:
+   <title>,link:favicon,link:css,<style>,<script>
+
+Body Section:
+    <h1> to <h6>,<p>,<style>,<script>
+
+        Text formatting tags:
+            <strong></strong>
+            <b></b>
+            <em></em>
+            <i></i>
+            <u></u>
+            <del></del>
+            <mark></mark>
+            <sup></sup>
+            <sub></sub>
+            <small></small>
+            <big></big>
+            <pre></pre>
+            <code></code>    
+    <br>
+    <hr> 
+    <img>
+
+    attributes: class vs id
+
+    <a>
+
+    ul>li
+    ol>li
+    dl>dt>dd
+   
+   <table>
+
+    style
+    link:css
+
+    <script>
+    script:src
+
+    <marquee>
+
+    Semantic elements: HTML entity (&copy; © &Uuml; @)          
+    Block & Inline elements
+    <div> vs <span>
+
+    form:
+     <input>
+     form validation
