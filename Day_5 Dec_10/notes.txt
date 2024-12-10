@@ -1,0 +1,6 @@
+Body Section:  
+
+    attributes: class vs id, title, target, controls, type, height, width, style, step, start, src, alt, selected, required, href, rel, readonly, placeholder, disabled
+
+    <a>
+   
