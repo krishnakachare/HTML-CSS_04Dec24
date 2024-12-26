@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+    <style>
+        h1::first-letter {
+            color: brown;
+        }
+
+        p::first-line {
+            color: aqua;
+        }
+
+        p::selection {
+            color: red;
+            background: yellow;
+        }
+
+        h2::before {
+            content: 'Before ';
+            color: green;
+        }
+
+        h2::after {
+            content: ' After';
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- syntax:
+    selector::pseudoselector {
+        pro:val;
+    } -->
+
+    <h1>Heading1</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit esse, tempore, ipsa quidem repellendus
+        molestiae aspernatur atque pariatur ex ea dolor aperiam, minus sed quasi officia sunt consequatur nam nesciunt.
+    </p>
+
+    <h2>Heading2</h2>
+
+</body>
+
+</html>
