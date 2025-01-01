@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+    <style>
+        * {
+            margin-bottom: 10px;
+        }
+
+        div {
+            width: 300px;
+            border: 2px solid;
+            padding: 50px;
+            margin: 100px 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- The <form> tag defines an HTML form. -->
+        <!-- "action" specifies the URL to which the form data is submitted. -->
+        <!-- "method" specifies the HTTP method used to send the data (e.g., POST or GET). -->
+        <form action="/abc.in" method="get">
+            <label>First Name:
+                <input type="text">
+            </label><br>
+            <label>DOB:
+                <input type="date">
+            </label><br>
+            <!-- The <fieldset> tag groups related form elements. -->
+            <fieldset>
+                <!-- The <legend> tag provides a title for the fieldset. -->
+                <legend>Gender:</legend>
+                <label>Male:
+                    <input type="radio" name="radioInput">
+                </label><br>
+                <label>Female:
+                    <input type="radio" name="radioInput">
+                </label><br>
+            </fieldset>
+
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </div>
+</body>
+
+</html>
