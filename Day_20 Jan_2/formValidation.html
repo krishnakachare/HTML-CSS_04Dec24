@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h3>Student Registration form</h3>
+        <form action="abc.in" method="post">
+            <label>First Name:
+                <input type="text" name="firstName" required>
+            </label><br>
+            <label>Last Name:
+                <input type="text" name="lastName">
+            </label><br>
+            <label>Mob No:
+                <input type="tel" name="Mob" required>
+            </label><br>
+            <label>Education:
+                <input type="text" name="Education" list="options">
+                <datalist id="options">
+                    <option value="BE">BE</option>
+                    <option value="BTech">BTech</option>
+                    <option value="BSc">BSc</option>
+                    <option value="MSc">MSc</option>
+                </datalist>
+            </label><br>
+            <fieldset>
+                <legend>Choose cources:</legend>
+                <label><input type="checkbox" name="option" value="QA"> : Automation QA</label><br>
+                <label><input type="checkbox" name="option" value="Dev"> : Development</label><br>
+                <label><input type="checkbox" name="option" value="DSci"> : Data Science</label><br>
+            </fieldset>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+    </div>
+</body>
+
+</html>
