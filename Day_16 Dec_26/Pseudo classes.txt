@@ -2,8 +2,6 @@ CSS Pseudo-classes:
 
     Pseudo-classes are used to select and style elements based on their special states or positions in relation to other elements.
 
-    pseudo selectors  -- all pseudo selectors starts with : 
-
     Syntax: 
     selector:pseudo-class {
                 property: value;
@@ -30,4 +28,3 @@ CSS Pseudo-classes:
         6. :first-child and :last-child:
             Select the first and last child elements of a parent element, respectively.
             Helpful for styling elements at the beginning or end of a container.
-      

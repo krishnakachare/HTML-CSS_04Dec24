@@ -24,27 +24,27 @@
         <!-- The <form> tag defines an HTML form. -->
         <!-- "action" specifies the URL to which the form data is submitted. -->
         <!-- "method" specifies the HTTP method used to send the data (e.g., POST or GET). -->
-        <form action="/abc.in" method="get">
+        <form action="/abc.in" method="post">
             <label>First Name:
-                <input type="text">
+                <input type="text" name="FName">
             </label><br>
             <label>DOB:
-                <input type="date">
+                <input type="date" name="DOB">
             </label><br>
             <!-- The <fieldset> tag groups related form elements. -->
             <fieldset>
                 <!-- The <legend> tag provides a title for the fieldset. -->
                 <legend>Gender:</legend>
                 <label>Male:
-                    <input type="radio" name="radioInput">
+                    <input type="radio" name="radio" value="Male">
                 </label><br>
                 <label>Female:
-                    <input type="radio" name="radioInput">
+                    <input type="radio" name="radio" value="Female">
                 </label><br>
             </fieldset>
 
-            <input type="submit">
-            <input type="reset">
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
         </form>
     </div>
 </body>
